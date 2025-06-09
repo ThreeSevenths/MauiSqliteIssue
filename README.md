@@ -11,3 +11,5 @@ mauiperftesting: * Assertion at /__w/1/s/src/mono/mono/mini/aot-runtime.c:5244, 
 ```
 
 This app is basically the out of the box starter with a method call to run inserts on a sqlite database instead of the counter button.
+
+The issue does not seem to happen in debug builds. It only seems to manifest in release builds.
